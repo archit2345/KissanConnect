@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Environment variables (contain your Neon DB URL and secrets)
+.env
+.env.*
+!.env.example
+
+# Prisma generated client (recreated by `npm run db:generate`)
+src/generated/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor settings
+.vscode/
+.idea/
